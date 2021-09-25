@@ -203,11 +203,11 @@ async def on_message(message):
         await message.channel.send(f'Vincent you suck!!')
                                 
     if begins(message, 'software'):
-        await message.channel.send(f'Imagine being in software pleb')
+        await message.channel.send('Imagine being in software pleb')
     if begins(message, 'quotient'):
-        await message.channel.send(f'Hi dee over hi dee ho ho ho')
+        await message.channel.send('Hi dee over hi dee ho ho ho')
     if beings(message, 'conlin'):
-        await message.channel.send(f'YOU HAVE NOTHING AGANIST ME JOHN CONLIN FIGHT ME!!!!!!')
+        await message.channel.send('YOU HAVE NOTHING AGANIST ME JOHN CONLIN FIGHT ME!!!!!!')
              
               
 
