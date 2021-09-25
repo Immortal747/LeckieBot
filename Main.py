@@ -199,11 +199,12 @@ async def on_message(message):
 
     if begins(message, 'ping'):
        await message.channel.send(f'Pong! {round(client.latency * 1000)}ms')
-    if begins(message, 'you suckv'):
-        await message.channel.send(f'Vincent you suck!!')
+    if begins(message, 'needs-to-be-done'):
+        await message.channel.send('SMACK zZz :pinched_fingers:  :pinched_fingers:  :pinched_fingers:')
+    if begins(message, 'daddy-ryan'):
+        await message.channel.send('DADDY RYAN :hot_face: :hot_face: :hot_face: ')
                                 
-    if begins(message, 'software'):
-        await message.channel.send('Imagine being in software pleb')
+   
     if begins(message, 'quotient'):
         await message.channel.send('Hi dee over hi dee ho ho ho')
     if beings(message, 'conlin'):
