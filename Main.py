@@ -2,6 +2,8 @@ import discord
 from discord.ext import commands
 from URLReader import URLReader
 
+f = open("token.txt", "r")
+
 PREFIX = '-'
 
 LECKIE_PRE = "http://www.chaoticgolf.com"
@@ -90,4 +92,4 @@ async def on_message(message):
         
         await message.channel.send(vid)
 
-client.run('ODkxMjEwMzQ5OTc2NjI5Mjc4.YU7CUQ.lQ5ROzjeCs-x4Gy5p_wTTeeg82w')
+client.run(f.read())
