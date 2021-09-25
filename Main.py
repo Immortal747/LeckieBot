@@ -199,6 +199,18 @@ async def on_message(message):
 
     if begins(message, 'ping'):
        await message.channel.send(f'Pong! {round(client.latency * 1000)}ms')
+    if begins(message, 'needs-to-be-done'):
+        await message.channel.send('SMACK zZz :pinched_fingers:  :pinched_fingers:  :pinched_fingers:')
+    if begins(message, 'daddy-ryan'):
+        await message.channel.send('DADDY RYAN :hot_face: :hot_face: :hot_face: ')
+                                
+   
+    if begins(message, 'quotient'):
+        await message.channel.send('Hi dee over hi dee ho ho ho')
+    if beings(message, 'conlin'):
+        await message.channel.send('YOU HAVE NOTHING AGANIST ME JOHN CONLIN FIGHT ME!!!!!!')
+             
+              
 
     if begins(message, 'myname'):
         await message.channel.send(f'{message.author.name}')
