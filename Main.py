@@ -207,6 +207,10 @@ async def on_message(message):
         await message.channel.send(f'{message.author.name} I have helped' +
                                    " you all this time. I'm a nice guy." +
                                    " But don't talk to me like that! Hi-De-Ho!")
+        
+    if begins(message, '0/0'):
+        await message.channel.send(f'DO SOMETHING ELSE")
+                                   
 
     if begins(message, 'vid ') and message.content[5:6].isnumeric() and message.content[7:8].isnumeric():
 
