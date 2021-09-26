@@ -257,6 +257,8 @@ async def on_message(message):
             vid = get_vid_name(name)
 
         await message.channel.send(vid)
+    if begins(message, 'mihir'):
+        await message.channel.send(f'{message.author.name} please contact mihir for any issues you have with this robot, also Mihir is also going to lose in fantasy')
 
     if begins(message, 'notes '):
         text = message.content
